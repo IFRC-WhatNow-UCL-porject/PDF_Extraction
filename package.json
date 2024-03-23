@@ -1,0 +1,20 @@
+{
+  "name": "pdf-table-extractor",
+  "version": "1.0.0",
+  "description": "A utility for extracting tables from PDF documents and converting them into a structured JSON format.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "PDF",
+    "table",
+    "extract",
+    "JSON"
+  ],
+  "author": "Stephen",
+  "license": "MIT",
+  "dependencies": {
+    "pdf2json": "^1.2.8"
+  }
+}
